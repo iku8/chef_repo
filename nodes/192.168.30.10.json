@@ -1,0 +1,9 @@
+{
+  "run_list": [
+   "recipe[web_server_recipe]",
+   "recipe[tools_recipe]"
+  ],
+  "automatic": {
+    "ipaddress": "192.168.30.10"
+  }
+}
